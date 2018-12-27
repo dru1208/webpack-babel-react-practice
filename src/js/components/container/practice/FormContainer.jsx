@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import Input from "../presentational/Input.jsx"
+import Input from "../../presentational/practice/Input.jsx"
 
 export default class FormContainer extends Component {
 	state = {
@@ -27,6 +27,3 @@ export default class FormContainer extends Component {
 		)
 	}
 }
-
-const wrapper = document.getElementById("create-article-form");
-wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;

@@ -1,1 +1,18 @@
-import FormContainer from "./js/components/container/FormContainer.jsx";
+import ToDo from "./js/components/presentational/ToDo.jsx";
+import React, { Component, Fragment } from "react";
+import ReactDOM from "react-dom"
+
+class App extends Component {
+	render() {
+		return(
+			<Fragment>
+				<ToDo />
+			</Fragment>
+		)
+	}
+}
+
+
+
+const wrapper = document.getElementById("root");
+wrapper ? ReactDOM.render(<App />, wrapper) : false
