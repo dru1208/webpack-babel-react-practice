@@ -3,7 +3,7 @@ import ToDoInput from "./ToDoInput.jsx"
 
 const ToDo = (props) => (
 	<Fragment>
-		<div class="title">ToDo: A List for Me</div>
+		<div className="title">ToDo: A List for Me</div>
 		<ToDoInput />
 	</Fragment>
 )

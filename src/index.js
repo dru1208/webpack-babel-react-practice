@@ -1,4 +1,4 @@
-import ToDo from "./js/components/presentational/ToDo.jsx";
+import ToDo from "./js/components/presentational/todo/ToDo.jsx";
 import React, { Component, Fragment } from "react";
 import ReactDOM from "react-dom"
 
